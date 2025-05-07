@@ -1,0 +1,25 @@
+.shrink{
+    transform: scale(0);
+    transition: transform 0.3s ease;
+}
+.enlarge{
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+div.UI{
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+div.gender{
+    display: flex;
+    align-items: center;
+}
+.UI{
+    font-family: 'Brush Script MT', cursive;
+}
+.question{
+    font-size: x-large;
+}
