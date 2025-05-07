@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="UI">
+        <table>
+            <tr>
+                <td colspan="4"><input type="text" class="equation"></td>
+            </tr>
+
+            <tr>
+                <td><button class="number_button">1</button></td>
+                <td><button class="number_button">2</button></td>
+                <td><button class="number_button">3</button></td>
+                <td><button class="number_button", id="operator">+</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="number_button">4</button></td>
+                <td><button class="number_button">5</button></td>
+                <td><button class="number_button">6</button></td>
+                <td><button class="number_button", id="operator">-</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="number_button">7</button></td>
+                <td><button class="number_button">8</button></td>
+                <td><button class="number_button">9</button></td>
+                <td><button class="number_button", id="operator">x</button></td>
+            </tr>
+
+
+            <tr>
+                <td><button class="result">=</button></td>
+                <td><button class="number_button">0</button></td>
+                <td><button class="reset_button">C</button></td>
+                <td><button class="number_button", id="operator">/</button></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.0/math.js"></script>
+<script src="page.js"></script>
+</html>

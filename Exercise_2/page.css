@@ -1,0 +1,52 @@
+body{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: burlywood;
+}
+.equation{
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-color: limegreen;
+    text-decoration-color: limegreen;
+}
+table{
+    background-color:#222222;
+    padding: 40px;
+    border-radius: 5px;
+    margin-top: 40%;
+    border-style: solid;
+}
+button{
+    border-radius: 50%;
+    font-size: 30px;
+    height: 90px; 
+    width: 90px;
+    color: white;
+    background-color: black;
+    margin: 3px;
+    border-style: none;
+    font-weight: bold
+}
+button:hover{
+    cursor: pointer;
+}
+button.result{
+    background-color: green;
+}
+button.reset_button{
+    background-color: red;
+}
+button#operator{
+    background-color: #636363;
+}
+input[type="text"]{
+    background-color: rgb(3, 51, 3);
+    color: limegreen;
+    width: 97%;
+    height: 50px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large
+}
