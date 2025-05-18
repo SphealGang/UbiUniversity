@@ -157,8 +157,6 @@ input::-webkit-inner-spin-button {
     font-weight: bold;
     font-family: Andale Mono, monospace;
 }
-/* .remove_button{ */
-/* } */
 .widget_button{
     font-size: x-large;
     margin-right: 20px;
